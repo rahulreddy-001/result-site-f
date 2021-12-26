@@ -1,0 +1,266 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("./fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("./fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url("./fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url("./fonts/Montserrat-SemiBold.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  font-family: Poppins-Regular, sans-serif;
+  background-color: #673ab7;
+}
+
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+input {
+  outline: none;
+  border: none;
+}
+.logo {
+  width: 450px;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+button {
+  outline: none !important;
+  border: none;
+  background: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+iframe {
+  border: none !important;
+}
+
+.container-login100 {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.wrap-login100 {
+  width: 680px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 62px;
+  padding-bottom: 33px;
+}
+.login100-form {
+  width: 100%;
+}
+
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.input100 {
+  font-family: Poppins-Regular;
+  color: #333333;
+  line-height: 1.2;
+  font-size: 18px;
+
+  display: block;
+  width: 100%;
+  background: transparent;
+  height: 40px;
+  padding: 0 20px;
+}
+
+.content {
+  background-color: #f7f7f7;
+  font-family: Poppins-Regular;
+  color: #333333;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10 20px;
+  border: 1px solid #e6e6e6;
+  height: auto;
+  resize: none;
+  font-size: 15px;
+}
+
+.container-login100-form-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 17px;
+}
+.rdBtn {
+  display: flex;
+  flex-direction: row;
+}
+.container-login100-form-btn-top {
+  padding: 2px;
+}
+.login100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 99%;
+  height: 40px;
+  background-color: #333333;
+  border-radius: 10px;
+
+  font-family: Poppins-Medium;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  position: relative;
+  z-index: 1;
+}
+
+.login100-form-btn::before {
+  content: "";
+  border-radius: 10px;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #a64bf4;
+  background: -webkit-linear-gradient(45deg, #00dbde, #fc00ff);
+  background: -o-linear-gradient(45deg, #00dbde, #fc00ff);
+  background: -moz-linear-gradient(45deg, #00dbde, #fc00ff);
+  background: linear-gradient(45deg, #00dbde, #fc00ff);
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.3s;
+}
+
+.login100-form-btn:hover:before {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .wrap-login100 {
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 450px;
+  }
+  .logo {
+    width: 400px;
+  }
+}
+@media (max-width: 576px) {
+  .wrap-login100 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 450px;
+  }
+  .logo {
+    width: 450px;
+  }
+}
+@media (max-width: 450px) {
+  .wrap-login100 {
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 440px;
+  }
+  .logo {
+    width: 390px;
+  }
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+* {
+  outline: none;
+}
+
+.table th,
+.table thead th {
+  font-weight: 600;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table th {
+  padding: 1rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+th {
+  text-align: inherit;
+}
+td {
+  text-align: inherit;
+  padding: 1rem;
+  font-weight: 500;
+  vertical-align: top;
+  border-bottom: 2px solid #dee2e6;
+}
